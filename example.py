@@ -1,4 +1,5 @@
-import BMP280
+from BMP280 import BMP280
+import time
 import matplotlib.pyplot as plt     
         
 sensor = BMP280()

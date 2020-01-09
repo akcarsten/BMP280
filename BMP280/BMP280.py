@@ -1,6 +1,4 @@
 import smbus
-import time
-import matplotlib.pyplot as plt
 
 
 class BMP280:
