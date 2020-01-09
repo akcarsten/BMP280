@@ -1,7 +1,7 @@
 import smbus
 
 
-class BMP280(object):
+class BMP280:
     
     def __init__(self, bus=1, address=0x76):
         
