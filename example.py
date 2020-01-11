@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 sensor = BMP280()
 
 # Read the trimming parameters from the NVM
+print('Reading trimming parameters')
 temp_coeffs = sensor.get_temperature_coefficients()
 pres_coeffs = sensor.get_pressure_coefficients()
 
