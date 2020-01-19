@@ -28,57 +28,57 @@ Now you can run Python and import the BMP280 library.
 ## Introduction
 
 ##### 1. Writing registers
-###### &nbsp;write_register(register, int_value)
+&nbsp;write_register(register, int_value)
 
-&nbsp;&nbsp;&nbsp;register:
+###### &nbsp;&nbsp;&nbsp;register:
 
-&nbsp;&nbsp;&nbsp;int_value:
+###### &nbsp;&nbsp;&nbsp;int_value:
 
-###### &nbsp;set_config()
+&nbsp;set_config()
 
-###### &nbsp;set_control()
+&nbsp;set_control()
 
 ##### 2. Reading registers
-###### &nbsp;read_register(register, num_bytes)
+&nbsp;read_register(register, num_bytes)
 
-&nbsp;&nbsp;&nbsp;register:
+###### &nbsp;&nbsp;&nbsp;register:
 
-&nbsp;&nbsp;&nbsp;num_bytes:
+###### &nbsp;&nbsp;&nbsp;num_bytes:
 
-###### &nbsp;read_config_register()
+&nbsp;read_config_register()
 
-###### &nbsp;read_control_register()
+&nbsp;read_control_register()
 
-###### &nbsp;read_status_register()
+&nbsp;read_status_register()
 
-###### &nbsp;read_calibration()
+&nbsp;read_calibration()
 
-###### &nbsp;read_data()
+&nbsp;read_data()
 
 ##### 3. Reading temperature and pressure coefficients
-###### &nbsp;get_temperature_coefficients()
+&nbsp;get_temperature_coefficients()
 
-###### &nbsp;get_pressure_coefficients()
+&nbsp;get_pressure_coefficients()
 
 ##### 4. Converting ADC values
-###### &nbsp;get_adc()
+&nbsp;get_adc()
 
-###### &nbsp;convert_adct(adc_t, temp_coeffs)
-&nbsp;&nbsp;&nbsp;adc_t:
+&nbsp;convert_adct(adc_t, temp_coeffs)
+###### &nbsp;&nbsp;&nbsp;adc_t:
 
-&nbsp;&nbsp;&nbsp;temp_coeffs:
+###### &nbsp;&nbsp;&nbsp;temp_coeffs:
 
-###### &nbsp;convert_adcp(adc_p, adc_t, pres_coeffs, temp_coeffs)
-&nbsp;&nbsp;&nbsp;adc_p:
+&nbsp;convert_adcp(adc_p, adc_t, pres_coeffs, temp_coeffs)
+###### &nbsp;&nbsp;&nbsp;adc_p:
 
-&nbsp;&nbsp;&nbsp;adc_t:
+###### &nbsp;&nbsp;&nbsp;adc_t:
 
-&nbsp;&nbsp;&nbsp;pres_coeffs:
+###### &nbsp;&nbsp;&nbsp;pres_coeffs:
 
-&nbsp;&nbsp;&nbsp;temp_coeffs:
+###### &nbsp;&nbsp;&nbsp;temp_coeffs:
 
 ##### 5. Retrieving pressure and temperature data
-###### &nbsp;get_data()
+&nbsp;get_data()
 
 ## Example for data collection and visualization
 
