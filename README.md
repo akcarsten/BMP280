@@ -38,7 +38,7 @@ Now you can run Python and import the BMP280 library.
 
 &nbsp;set_control()
 
-##### 2. Reading registers
+#### 2. Reading registers
 &nbsp;read_register(register, num_bytes)
 
 ###### &nbsp;&nbsp;&nbsp;register:
