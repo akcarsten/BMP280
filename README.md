@@ -27,7 +27,7 @@ Now you can run Python and import the BMP280 library.
 
 ## Introduction
 
-##### 1. Writing registers
+#### 1. Writing registers
 &nbsp;write_register(register, int_value)
 
 ###### &nbsp;&nbsp;&nbsp;register:
@@ -55,12 +55,12 @@ Now you can run Python and import the BMP280 library.
 
 &nbsp;read_data()
 
-##### 3. Reading temperature and pressure coefficients
+#### 3. Reading temperature and pressure coefficients
 &nbsp;get_temperature_coefficients()
 
 &nbsp;get_pressure_coefficients()
 
-##### 4. Converting ADC values
+#### 4. Converting ADC values
 &nbsp;get_adc()
 
 &nbsp;convert_adct(adc_t, temp_coeffs)
@@ -77,7 +77,7 @@ Now you can run Python and import the BMP280 library.
 
 ###### &nbsp;&nbsp;&nbsp;temp_coeffs:
 
-##### 5. Retrieving pressure and temperature data
+#### 5. Retrieving pressure and temperature data
 &nbsp;get_data()
 
 ## Example for data collection and visualization
